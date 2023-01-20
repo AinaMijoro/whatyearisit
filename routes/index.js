@@ -11,7 +11,7 @@ router.get('/year', (req, res) => {
   const date = new Date()
   let annee = date.getFullYear()
 
-  res.json( {year:`${annee}` });
+  res.json({year:`${annee}`});
  });
 
 module.exports = router;
